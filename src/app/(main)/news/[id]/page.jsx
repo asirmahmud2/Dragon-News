@@ -9,7 +9,7 @@ const DetailsPage = async ({ params }) => {
     const news = await getNewsDetailsID(id);
 
     return (
-        <div className="container mx-auto mt-15">
+        <div className="w-8/12 mx-auto m-15 mb-20">
             <div className="bg-white border border-gray-200 rounded-lg p-6">
                 <h2 className="text-xl font-bold p-2 text-[#403F3F] mb-4">
                     News Details
